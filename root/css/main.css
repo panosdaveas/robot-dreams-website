@@ -1,4 +1,3 @@
-/*<style>*/
 :root {
   --font: "EB Garamond", serif;
   --font-title: "Playfair Display", serif;
@@ -112,7 +111,8 @@ main aside {
 }
 @media (min-width: 700px) {
   main .terrarium {
-    grid-column: 1/-1;
+    /*grid-column: 1/-1;*/
+    grid-column: 4/-1;
   }
 }
 @media (min-width: 1024px) {
@@ -122,7 +122,8 @@ main aside {
 }
 @media (min-width: 700px) {
   main .main-text {
-    grid-column: span 5;
+    /*grid-column: span 5;*/
+    grid-column: span 3;
   }
 }
 @media (min-width: 1024px) {
@@ -184,8 +185,8 @@ main .article-bar-1 {
 }
 @media (min-width: 700px) and (max-width: 1024px) {
   main .style,
-  main .magazine,
-  main .pasta {
+main .magazine,
+main .pasta {
     grid-column: 1/3;
   }
 }
@@ -337,16 +338,24 @@ aside > div > div {
 }
 .hogwarts__image img {
   transform: rotate(60deg);
-  height: 150%;
+  /*height: 150%;*/
   position: absolute;
   border: 0;
-  width: 250%;
-  left: -70%;
-  bottom: -35%;
+  width: 350%;
+  left: -110%;
+  bottom: -5%;
+  /*transform: rotate(60deg);*/
+  /*height: 150%;*/
+  /*position: absolute;*/
+  /*border: 0;*/
+  /*width: 250%;*/
+  /*left: -70%;*/
+  /*bottom: -35%;*/
 }
 @media (min-width: 700px) and (max-width: 1024px) {
   .hogwarts__image img {
-    bottom: -20%;
+    /*bottom: -20%;*/
+    bottom: 10%;
   }
 }
 .hogwarts__image span {
@@ -383,20 +392,10 @@ aside > div > div {
   text-align: left;
 }
 .pie__image {
-  object-position: top;
   margin: 0;
   border: 0;
-  max-height: 25rem;
-  /*max-height: 15rem;*/
-  object-fit: cover;
-}
-
-.manequen img {
-  object-position: top;
-  margin: 0;
-  border: 0;
-  max-height: 13rem;
-  /*max-height: 15rem;*/
+  /*max-height: 25rem;*/
+  max-height: 100%;
   object-fit: cover;
 }
 
@@ -472,7 +471,6 @@ aside > div > div {
   height: 100%;
 }
 .menu img {
-  /* height: 20.8rem; */
   height: 90%;
   object-fit: cover;
   object-position: left;
@@ -516,14 +514,28 @@ aside > div > div {
   width: calc(100% - 4px);
   margin: 3rem auto 0.2rem;
 }
+
+.workout__image span {
+  font-style: italic;
+  max-width: 110px;
+  position: absolute;
+  padding-left: 10px;
+  padding-top: 4px;
+  /*top: 7%;*/
+  /*left: 1%;*/
+  font-size: 22px;
+  line-height: 0.9;
+  transform: rotate(-5deg);
+}
 .workout__image {
-  padding: 2px;
+  /*padding: 2px;*/
 }
 .workout__image img {
   height: 16rem;
   object-fit: cover;
-  object-position: left;
+  object-position: center;
   border: none;
+  right: 0;
 }
 @media (min-width: 1024px) {
   .workout__image img {
@@ -559,21 +571,30 @@ aside > div > div {
   border: 0;
   grid-row: span 2;
   height: 100%;
+  width: 50%;
   object-fit: cover;
 }
 .social__subtitle {
+  text-align: center;
+  writing-mode: vertical-rl;
+  text-orientation: upright;
   background: #999;
   text-transform: uppercase;
   line-height: 1;
   padding: 0.4rem 1rem;
   color: var(--gray);
-  font: 14px var(--font-sans-serif);
+  font: 18px var(--font-sans-serif);
 }
 .social__content {
-  background: #666;
+  /*background: #666;*/
+  background-image: url("../assets/image_4.png");
+  /*background-image: url("../assets/robotdreams28 copy.png");*/
+  /*transform:scaleX(-1);*/
+  background-size: cover;
+  background-repeat: no-repeat;
   padding: 1rem;
   color: var(--gray);
-  grid-column: 2;
+  grid-column: 1;
 }
 
 .plan {
@@ -611,4 +632,3 @@ aside > div > div {
   background: transparent;
   color: var(--black);
 }
-/*</style>*/
