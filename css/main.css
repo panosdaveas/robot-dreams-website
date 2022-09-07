@@ -111,8 +111,8 @@ main aside{
 }
 @media (min-width: 700px) {
   main .terrarium {
-    /*grid-column: 1/-1;*/
-    grid-column: 4/-1;
+    grid-column: 1/-1;
+    /*grid-column: 4/-1;*/
   }
 }
 @media (min-width: 1024px) {
@@ -122,8 +122,8 @@ main aside{
 }
 @media (min-width: 700px) {
   main .main-text {
-    /*grid-column: span 5;*/
-    grid-column: span 3;
+    grid-column: span 5;
+    /*grid-column: span 3;*/
   }
 }
 @media (min-width: 1024px) {
@@ -592,7 +592,7 @@ aside > div > div {
   /*background-image: url("../assets/image_4.png");*/
   width: 100%;
   background-position: bottom;
-  background-image: url("../assets/keyboard.jpg");
+  background-image: url("../assets/keyboard.png");
   /*transform:scaleX(-1);*/
   background-size: 100%;
   background-repeat: no-repeat;

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html"
+      xmlns="http://www.w3.org/1999/html">
 
 <head>
     <meta charset="UTF-8">
@@ -31,6 +32,8 @@
             window.parent.postMessage("resize", "*");
         }
     </script>
+    <script async src="https://api.countapi.xyz/hit/therobotimes.com/df6f0a19-9cde-437b-95a5-bb3ea32849dc?callback=websiteVisits"></script>
+    <script src="js/visits.js"></script>
 </head>
 
 <body translate="no">
@@ -43,22 +46,34 @@
                 <div>
                     <ul class="social">
                         <li>
-                            <a class="ease-all" href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                            <a class="ease-all" href="https://www.facebook.com/RobotDreams-105285395578403" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
                         </li>
                         <li>
-                            <a class="ease-all" href="#"><i class="fa fa-twitter"></i></a>
+                            <a class="ease-all" href="https://twitter.com/robotdreams1" target="_blank"><i class="fa fa-twitter"></i></a>
                         </li>
                         <li>
                             <a class="ease-all" href="https://www.instagram.com/robot.dream/" target="_blank"><i
                                     class="fa-brands fa-instagram"></i></a>
                         </li>
                         <li>
-                            <a class="ease-all" href="#"><i class="fa-solid fa-paper-plane"></i></a>
+                            <a class="ease-all" href="mailto:panosdaveas@gmail.com"><i class="fa-solid fa-paper-plane"></i></a>
                         </li>
                     </ul>
                 </div>
                 <!--        <div class="issue">Issue #1</div>-->
-                <div class="date">Tuesday, 26 May, 1984</div>
+<!--                <div id="date">Tuesday, 26 May, 1984</div>-->
+                <div id="date"></div>
+                <script>
+                    const weekday = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
+                    const month = ["January", "February", "March", " April", "May", "June", "July", "August", "September", "October", "November", "December"];
+                    const date = new Date();
+                    let dayName = weekday[date.getDay()];
+                    let monthName = month[date.getMonth()];
+                    year = date.getFullYear();
+                    // month = date.getMonth() + 1;
+                    day = date.getDate();
+                    document.getElementById("date").innerHTML = dayName + ", " + date.getDate() + " " + monthName + ", " + year;
+                </script>
                 <div class="edition">Two cents Edition</div>
             </div>
         </aside>
@@ -84,10 +99,9 @@
         <a class="terrarium" href="https://www.instagram.com/p/CVVVFlaNyAP/?utm_source=ig_web_copy_link"
            target="_blank">
             <figure>
-                <!--            <img src="assets/robotdreams23.jpeg" />-->
-
+<!--                            <img src="assets/robotdreams23.jpeg">-->
                 <div class="glitch"
-                     style="background: url('assets/robotdreams23.jpeg') no-repeat 90% 40%/cover;">
+                     style="background: url('assets/robotdreams23.jpeg') no-repeat 90% 40%/cover;height: 25rem;background-position: bottom;">
 <!--                     style="background: url('assets/robotdreams23.jpeg') no-repeat 50% 50%/cover;height: 96%;">-->
                     <!--              <div class="glitch">-->
                     <div class="glitch__item"></div>
@@ -96,11 +110,12 @@
                     <div class="glitch__item"></div>
                     <div class="glitch__item"></div>
                 </div>
+<!--                </img>-->
                 <figcaption>A to-do list that grows succulents when you've completed a task</figcaption>
             </figure>
         </a><a class="item-with-image plan span--2 long--2" href="https://codepen.io/oliviale/full/moLrBq"
                target="_blank">
-        <img src="assets/robotdreams32.png"/>
+        <img src="assets/robotdreams33.png"/>
 <!--        <img src="assets/robotdreams4.jpg"/>-->
         <!--      <img style="object-fit: cover; object-position: top; height: 14rem" src="assets/robotdreams14.jpeg" />-->
         <h4>Can you get inspired to make your own floor plans?</h4>
@@ -264,6 +279,7 @@
     // 🦝 trash panda 🦝
     // # sourceURL=pen.js
 </script>
+<!--<h4>This site has been visited <span id="visits"></span> times.</h4>-->
 
 
 </body>
