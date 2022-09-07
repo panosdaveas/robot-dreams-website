@@ -381,9 +381,10 @@ aside > div > div {
   height: 100%;
 }
 .terrarium img {
-  height: 96%;
+  height: 100%;
   object-fit: cover;
-  object-position: right;
+  /*object-position: right;*/
+  object-position: center;
 }
 
 .pie {
@@ -492,7 +493,8 @@ aside > div > div {
 .cssgrid-collection img {
   height: 100%;
   object-fit: cover;
-  object-position: left;
+  /*object-position: left;*/
+  object-position: center;
 }
 .cssgrid-collection p a {
   border-bottom: 1px dashed;
@@ -634,4 +636,17 @@ aside > div > div {
 .hogwarts:hover .hogwarts__title {
   background: transparent;
   color: var(--black);
+}
+
+.rotate {
+  animation: rotation 20s infinite linear;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
 }
