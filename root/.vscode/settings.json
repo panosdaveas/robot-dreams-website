@@ -1,6 +1,0 @@
-{
-    "editor.wordWrapColumn": 90,
-    "workbench.tree.renderIndentGuides": "onHover",
-    "editor.guides.highlightActiveIndentation": true,
-    "editor.guides.indentation": false
-}
