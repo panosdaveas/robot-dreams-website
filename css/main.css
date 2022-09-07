@@ -96,7 +96,7 @@ em {
   }
 }
 main h1,
-main aside {
+main aside{
   grid-column: 1/-1;
 }
 @media (min-width: 700px) {
@@ -587,13 +587,16 @@ aside > div > div {
 }
 .social__content {
   /*background: #666;*/
-  background-image: url("../assets/image_4.png");
-  /*background-image: url("../assets/robotdreams28 copy.png");*/
+  /*background-image: url("../assets/image_4.png");*/
+  width: 100%;
+  background-position: bottom;
+  background-image: url("../assets/keyboard.jpg");
   /*transform:scaleX(-1);*/
-  background-size: cover;
+  background-size: 100%;
   background-repeat: no-repeat;
-  padding: 1rem;
-  color: var(--gray);
+  /*padding: 1rem;*/
+  /*color: var(--gray);*/
+  color: #1c1f33;
   grid-column: 1;
 }
 
