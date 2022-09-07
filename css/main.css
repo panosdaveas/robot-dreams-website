@@ -723,3 +723,10 @@ aside > div > div {
         transform: rotate(359deg);
     }
 }
+
+.logo {
+    width: 100px;
+    border: none;
+    vertical-align: -12px;
+    margin-right: 5px;
+}
