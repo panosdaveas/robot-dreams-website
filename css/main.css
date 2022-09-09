@@ -372,7 +372,10 @@ aside > div > div {
 
     .sidebar .workout {
         order: 3;
-        height: auto;
+    }
+
+    .glitch {
+        height: 29rem;
     }
 
 }
@@ -383,6 +386,10 @@ aside > div > div {
         border-left: 1px solid;
         padding-left: 1.2rem;
         margin: 0;
+    }
+
+    .glitch {
+        height: 24rem;
     }
 }
 
@@ -659,6 +666,7 @@ aside > div > div {
 }
 
 .workout__image {
+    /*height: 100%;*/
     /*padding: 2px;*/
 }
 
