@@ -194,6 +194,7 @@ main .article-bar-1 {
     main .menu {
         grid-row: 7/8;
         grid-column: 2/ span 2;
+        margin: 0;
         /*grid-column: 1/-1;*/
         /*grid-row: 13;*/
     }
@@ -208,6 +209,8 @@ main .article-bar-1 {
 
 @media (min-width: 700px) and (max-width: 1024px) {
     main .toggles {
+        /*background: var(--black);*/
+        /*color: #fff;*/
         /*grid-column: 3/6;*/
         /*grid-row: 10/13;*/
     }
@@ -229,6 +232,19 @@ main .article-bar-1 {
     main .style {
         grid-column: 1;
     }
+    main .pasta h4 {
+        background: var(--black);
+        color: #fff;
+    }
+    main .magazine h4 {
+        background: var(--black);
+        color: #fff;
+    }
+    /*main .style h4 {*/
+    /*    background: var(--black);*/
+    /*    color: #fff;*/
+    /*}*/
+
 }
 
 main .cssgrid-collection {
@@ -327,7 +343,18 @@ aside > div > div {
     .sidebar h3 {
         width: 100%;
         text-align: center;
+        margin-top: 1.5rem;
+
+        padding-bottom: 1.5rem;
+        padding-top: 1.5rem;
+        background: var(--black);
+        color: #fff;
     }
+
+    /*.sidebar h5 {*/
+    /*    background: var(--black);*/
+    /*    color: var(--gray);*/
+    /*}*/
 
     .sidebar > a {
         flex: 0 1 48%;
@@ -340,8 +367,14 @@ aside > div > div {
     }
 
     .sidebar .pie {
-        order: 3;
+        order: 2;
     }
+
+    .sidebar .workout {
+        order: 3;
+        height: auto;
+    }
+
 }
 
 @media (min-width: 1024px) {
@@ -511,7 +544,7 @@ aside > div > div {
 }
 
 .item-with-image {
-    margin-top: 1.5rem;
+    /*margin-top: 1.5rem;*/
 }
 
 .item-with-image h4 {
@@ -522,10 +555,19 @@ aside > div > div {
 }
 
 @media (min-width: 700px) {
-    .item-with-image {
-        margin: 0;
-    }
+    /*.item-with-image h4 {*/
+    /*    background: var(--black);*/
+    /*    color: #fff;*/
+    /*    !*margin-top: 1.5rem;*!*/
+    /*    !*margin: 0;*!*/
+    /*}*/
 }
+/*@media (min-width: 700px) {*/
+/*    .item-with-image {*/
+/*        margin-top: 1.5rem;*/
+/*        !*margin: 0;*!*/
+/*    }*/
+/*}*/
 
 .item-with-image:not(.cssgrid-collection):hover h4 {
     color: white !important;
@@ -703,7 +745,12 @@ aside > div > div {
 @media (min-width: 700px) and (max-width: 1024px) {
     .plan {
         grid-column: span 3;
-        margin: 0 0 1.5rem;
+        /*margin: 0 0 1.5rem;*/
+        border-bottom: 1px solid;
+    }
+    .plan h4 {
+        background: var(--black);
+        color: #fff;
     }
 }
 
