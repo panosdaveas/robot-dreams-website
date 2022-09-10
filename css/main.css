@@ -715,12 +715,42 @@ aside > div > div {
     text-align: left;
 }
 
+.social .container {
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    grid-row: span 2;
+    object-fit: cover;
+    position: relative;
+    display: flex;
+}
+
+.social .container .first-text {
+    margin: 0;
+    width: inherit;
+    position: absolute;
+    bottom: 0;
+    border: 1px solid #1c1f33;
+    color: #1c1f33;
+}
+
+.social .container .social__bottom__image {
+    margin: 0;
+    bottom: 0;
+    position: absolute;
+    object-fit: contain;
+    height: 100%;
+    width: 50%;
+    border: none;
+    right: 0;
+ }
+
 .social__image {
     margin: 0;
     border: 0;
-    grid-row: span 2;
-    height: 100%;
-    width: 50%;
+    /*grid-row: span 2;*/
+    height: 90%;
+    /*width: 50%;*/
     object-fit: cover;
 }
 
