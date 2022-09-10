@@ -379,7 +379,7 @@ aside > div > div {
     }
 
     .glitch {
-        height: 36rem;
+        height: 37rem;
     }
 
 }
@@ -730,7 +730,8 @@ aside > div > div {
     width: inherit;
     position: absolute;
     bottom: 0;
-    border: 1px solid #1c1f33;
+    /*border: 1px solid #1c1f33;*/
+    background: lightgray;
     color: #1c1f33;
 }
 
