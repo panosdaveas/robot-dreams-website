@@ -211,7 +211,7 @@ main .article-bar-1 {
     }
 }
 
-@media (min-width: 700px) and (max-width: 1024px) {
+@media (min-width: 700px) and (max-width: 1023px) {
     main .toggles {
         /*background: var(--black);*/
         /*color: #fff;*/
@@ -223,13 +223,13 @@ main .article-bar-1 {
     }
 }
 
-@media (min-width: 700px) and (max-width: 1024px) {
+@media (min-width: 700px) and (max-width: 1023px) {
     main .plan {
         grid-column: span 2;
     }
 }
 
-@media (min-width: 700px) and (max-width: 1024px) {
+@media (min-width: 700px) and (max-width: 1023px) {
     /*main .style,*/
     main .magazine,
     main .pasta {
@@ -344,7 +344,7 @@ aside > div > div {
     margin-top: 3rem;
 }
 
-@media (min-width: 700px) and (max-width: 1024px) {
+@media (min-width: 700px) and (max-width: 1023px) {
     .sidebar {
         display: flex;
         flex-wrap: wrap;
@@ -439,7 +439,7 @@ aside > div > div {
     transition: 0.2s ease;
 }
 
-@media (min-width: 700px) and (max-width: 1024px) {
+@media (min-width: 700px) and (max-width: 1023px) {
     .hogwarts__title {
         font: 800 21px/1.2 var(--font-sans-serif);
         padding: 1.5rem 0.5rem;
@@ -468,7 +468,7 @@ aside > div > div {
     /*bottom: -35%;*/
 }
 
-@media (min-width: 700px) and (max-width: 1024px) {
+@media (min-width: 700px) and (max-width: 1023px) {
     .hogwarts__image img {
         /*bottom: -20%;*/
         bottom: 10%;
@@ -794,7 +794,7 @@ aside > div > div {
     padding-bottom: 1rem;
 }
 
-@media (min-width: 700px) and (max-width: 1024px) {
+@media (min-width: 700px) and (max-width: 1023px) {
     .plan {
         grid-column: span 3;
         /*margin: 0 0 1.5rem;*/
