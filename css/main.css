@@ -740,7 +740,7 @@ aside > div > div {
     position: absolute;
     bottom: 0;
     /*border: 1px solid #1c1f33;*/
-    background: lightgray;
+    /*background: lightgray;*/
     color: #1c1f33;
 }
 
