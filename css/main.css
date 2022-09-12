@@ -557,7 +557,7 @@ aside > div > div {
     margin-top: 1rem;
 }
 
-.sidebar-item:hover h5 {
+.sidebar-item:hover, :focus h5 {
     transition: 0.3s ease;
     background: var(--black);
     color: #fff;
@@ -590,7 +590,7 @@ aside > div > div {
     }
 }
 
-.item-with-image:not(.cssgrid-collection):hover h4 {
+.item-with-image:not(.cssgrid-collection):hover, :focus h4 {
     color: white !important;
     background: var(--black);
 }
@@ -825,7 +825,7 @@ aside > div > div {
     filter: grayscale(0);
 }
 
-.workout:hover .workout__title {
+.workout:hover, :focus .workout__title {
     background: transparent;
     color: var(--black);
 }
