@@ -401,7 +401,8 @@ aside > div > div {
     }
 
     .glitch {
-        height: 24rem;
+        height: 25rem;
+        /*height: 100%;*/
     }
 }
 

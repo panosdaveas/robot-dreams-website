@@ -53,8 +53,7 @@
   justify-content: center;
   align-items: center;
   margin-bottom: 1rem;
-
-  /*overflow: hidden;*/
+  overflow: hidden;
 }
 .glitch .glitch__item {
   /*background: url("https://images.unsplash.com/photo-1482245294234-b3f2f8d5f1a4?ixlib=rb-0.3.5&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0NTg5fQ&s=1922d6e6f96e8e67aac67057877e15da") no-repeat 50% 50%/cover;*/
